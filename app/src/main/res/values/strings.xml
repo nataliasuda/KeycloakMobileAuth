@@ -1,3 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">KeycloakMobileAuth</string>
+    <string name="app_name">Keycloak Mobile Auth</string>
+    
+    <string name="login_button_text">Zaloguj się</string>
+    <string name="get_user_info_button_text">Pobierz dane użytkownika</string>
+  
+    <string name="login_successful">Zalogowano pomyślnie!</string>
+    <string name="login_error">Błąd logowania!</string>
+    <string name="authorization_error">Błąd autoryzacji!</string>
+    <string name="no_access_token">Brak tokena dostępu!</string>
+    <string name="please_login_first">Najpierw się zaloguj!</string>
+    <string name="network_error">Błąd sieci!</string>
+    <string name="fetching_data_error">Błąd pobierania danych!</string>
+    
+   
+    <string name="logged_in_successfully">Zalogowano pomyślnie!\nToken: %1$s...</string>
+    <string name="user_info_header">Dane użytkownika:</string>
+    <string name="user_id">ID: %1$s</string>
+    <string name="username">Nazwa: %1$s</string>
+    <string name="email">Email: %1$s</string>
+    <string name="first_name">Imię: %1$s</string>
+    <string name="last_name">Nazwisko: %1$s</string>
+    <string name="token_preview">Token (16 znaków): %1$s...</string>
+    
+
+    <string name="token_exchange_error">Błąd wymiany tokenu: %1$s</string>
+    <string name="authorization_error_msg">Błąd autoryzacji: %1$s</string>
+    <string name="parse_error">Błąd parsowania odpowiedzi: %1$s</string>
+    <string name="http_error">Błąd HTTP %1$d: %2$s</string>
 </resources>
